@@ -19,3 +19,14 @@ const student = {
 }
 
 console.log(student.nam_e);   //Ben 10//
+
+// Create a const object called "profile" to store information shown in the picture.//
+
+const profile = {
+    username : "saumysingh" ,
+    isFollow : false,
+    followers : 45 ,
+    following : 46 ,
+    occupation : "software engineer"
+}
+
