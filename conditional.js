@@ -1,4 +1,5 @@
 // if-statement
+// traffic rule 
 
 let color = "green";
 
@@ -10,4 +11,14 @@ if (color == "yellow") {
 }
 if (color == "red") {
     console.log("STOP");
+}
+// voting condition
+
+let age = "25";
+
+if (age >= 18) {
+    console.log ("you can vote");
+}
+if (age <18) {
+    console.log("you can't vote")
 }
