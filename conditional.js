@@ -1,5 +1,6 @@
 // if-statement
-// traffic rule 
+
+// create a condition for the traffic rules 
 
 let color = "green";
 
