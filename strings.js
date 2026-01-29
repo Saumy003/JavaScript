@@ -15,3 +15,7 @@ let obj = {
 
 let output = `the cost of ${obj.item} is ${obj.price} rupees`;
 console.log(output);
+
+// escape character--> /n --> gives new line in string
+
+console.log("apna\ncollege");
