@@ -25,7 +25,14 @@ console.log(val);
 console.log(val.slice(1,4));
 
 /* splice() */
-let marks = [23, 45, 78, 64, 79, 37, 90, 71];
-let arr3 =marks.splice(2 , 2 , 45,98);
-console.log(arr3)
+let marks = [1, 2, 3, 4, 5, 6, 7];
+marks.splice(2, 2, 8,9);
 
+// to add element
+marks.splice(2, 0, 7);
+
+// to delete element
+marks.splice(2, 3);
+
+// to replace element
+marks.splice(2, 2, 3,4);
