@@ -67,3 +67,10 @@ const output = array1.reduce((res , curr) => {    // initially res =1 and curr =
 } );
 
 console.log(output);  // 10
+
+let array2 = [5,6,2,1,3];
+const result = array2.reduce((prev , curr) => {
+    return prev > curr ? prev : curr;              // largest number in array
+}) ;
+
+console.log(result);
