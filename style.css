@@ -1,10 +1,19 @@
+/* first_code.html*/
 h1 {
     color :aquamarine;
     background-color: blueviolet;
    
 }
-
+/* second_code.html*/
 body {
-    background-color: #212121;
+    background-color: green;
     color : white;
+}
+
+/* fourth_code,html*/
+div {
+    height: 100px;
+    width:  100px;
+    background-color: #212121;
+    color: #ffffff;
 }
